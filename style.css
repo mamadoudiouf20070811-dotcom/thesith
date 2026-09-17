@@ -1,6 +1,4 @@
-/* =========================
-   STYLE GENERAL
-========================= */
+
 
 * {
     margin: 0;
@@ -16,9 +14,7 @@ body {
 }
 
 
-/* =========================
-   CONTENEUR DU CV
-========================= */
+
 
 .cv {
     width: 900px;
@@ -31,9 +27,7 @@ body {
 }
 
 
-/* =========================
-   COLONNE GAUCHE
-========================= */
+
 
 .sidebar {
     background: #172a3a;
@@ -232,9 +226,17 @@ body {
 }
 
 
-/* =========================
-   EXPERIENCES
-========================= */
+.sidebar a {
+    color: #6ee7dc;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+
 
 .experience {
     display: grid;
@@ -282,9 +284,6 @@ body {
 }
 
 
-/* =========================
-   PROJETS
-========================= */
 
 .projects {
     display: grid;
@@ -311,9 +310,6 @@ body {
 }
 
 
-/* =========================
-   RESPONSIVE
-========================= */
 
 @media screen and (max-width: 950px) {
 
@@ -358,9 +354,7 @@ body {
 }
 
 
-/* =========================
-   IMPRESSION
-========================= */
+
 
 @media print {
 
@@ -375,13 +369,3 @@ body {
     }
 
 }
-.sidebar a {
-    color: #6ee7dc;
-    text-decoration: none;
-}
-
-.sidebar a:hover {
-    color: white;
-    text-decoration: underline;
-}
-
