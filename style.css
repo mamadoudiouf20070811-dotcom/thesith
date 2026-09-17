@@ -65,9 +65,7 @@ body {
 }
 
 
-/* =========================
-   PHOTO
-========================= */
+
 
 .photo {
     width: 120px;
@@ -93,9 +91,6 @@ body {
 }
 
 
-/* =========================
-   NOM
-========================= */
 
 .sidebar h1 {
     text-align: center;
@@ -117,9 +112,7 @@ body {
 }
 
 
-/* =========================
-   SECTIONS SIDEBAR
-========================= */
+
 
 .sidebar section {
     margin-bottom: 32px;
@@ -144,9 +137,6 @@ body {
 }
 
 
-/* =========================
-   COMPETENCES
-========================= */
 
 .skill {
     margin-bottom: 15px;
@@ -172,18 +162,12 @@ body {
 }
 
 
-/* =========================
-   CONTENU DROIT
-========================= */
 
 .content {
     padding: 50px 50px;
 }
 
 
-/* =========================
-   INTRODUCTION
-========================= */
 
 .intro {
     margin-bottom: 40px;
@@ -203,9 +187,6 @@ body {
 }
 
 
-/* =========================
-   TITRES
-========================= */
 
 .title {
     font-size: 23px;
@@ -227,12 +208,12 @@ body {
 
 
 .sidebar a {
-    color: #6ee7dc;
+    color: white;
     text-decoration: none;
 }
 
 .sidebar a:hover {
-    color: white;
+    color: #6ee7dc;
     text-decoration: underline;
 }
 
