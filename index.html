@@ -1,59 +1,222 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>CV — Mamadou Diouf</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon CV - Prénom Nom</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<div class="page">
 
-<header>
-  <h1>Mamadou Diouf</h1>
-  <div class="role">Étudiant en BUT Science des Données — recherche alternance Data Analyst / Data Scientist</div>
-  <div class="contact">
-    <span>Besançon, France</span>
-    <span><a href="mailto:prenom.nom@email.com">prenom.nom@email.com</a></span>
-    <span>06 XX XX XX XX</span>
-    <span><a href="https://linkedin.com/in/votre-profil">linkedin.com/in/votre-profil</a></span>
-  </div>
-</header>
+    <main class="cv">
 
-<div class="layout">
-  <div class="main">
+        <!-- COLONNE GAUCHE -->
+        <aside class="sidebar">
 
-    <section>
-      <h2>Profil</h2>
-      <p>Étudiant en 2e année de BUT Science des Données, je travaille l'ensemble du cycle analytique : collecte et nettoyage des données, analyse statistique, visualisation et restitution des résultats. Je recherche une alternance en data analyse pour mettre ces compétences au service de projets concrets.</p>
-    </section>
+            <div class="photo">
+                <span>PN</span>
+            </div>
 
-    <section>
-      <h2>Formation</h2>
-      <div class="item">
-        <h3>BUT Science des Données (SD)</h3>
-        <div class="meta">IUT — 2e année en cours · 1re année validée</div>
-        <ul>
-          <li>Statistiques descriptives et inférentielles, régression, tests d'hypothèses</li>
-          <li>Bases de données relationnelles, SQL, normalisation (3NF)</li>
-          <li>Programmation Python, visualisation de données, business intelligence</li>
-        </ul>
-      </div>
-      <div class="item">
-        <h3>Baccalauréat</h3>
-        <div class="meta">Année — Mention</div>
-      </div>
-    </section>
+            <h1>Prénom<br>Nom</h1>
+            <p class="poste">Développeur Web</p>
 
-    <section>
-      <h2>Projets</h2>
+            <section>
+                <h2>Contact</h2>
 
-      <div class="item">
-        <h3>Analyse statistique de fréquentation — Week-end Gourmand du Chat Perché (Dole)</h3>
-        <div class="meta">SAE · Python, Excel</div>
-        <ul>
-          <li>Traitement d'un échantillon de visiteurs segmenté selon la possession d'un pass dégustation</li>
-          <li>Indicateurs de position et de
+                <p>📍 Dijon, France</p>
+                <p>📞 06 00 00 00 00</p>
+                <p>✉️ prenom.nom@email.com</p>
+                <p>🌐 www.monsite.fr</p>
+            </section>
+
+            <section>
+                <h2>Compétences</h2>
+
+                <div class="skill">
+                    <p>HTML / CSS</p>
+                    <div class="bar">
+                        <span style="width: 90%;"></span>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <p>JavaScript</p>
+                    <div class="bar">
+                        <span style="width: 70%;"></span>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <p>PHP</p>
+                    <div class="bar">
+                        <span style="width: 65%;"></span>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <p>SQL</p>
+                    <div class="bar">
+                        <span style="width: 75%;"></span>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h2>Langues</h2>
+
+                <p><strong>Français</strong> — Langue maternelle</p>
+                <p><strong>Anglais</strong> — Niveau B2</p>
+                <p><strong>Espagnol</strong> — Niveau A2</p>
+            </section>
+
+            <section>
+                <h2>Centres d'intérêt</h2>
+
+                <p>💻 Informatique</p>
+                <p>📷 Photographie</p>
+                <p>🎮 Jeux vidéo</p>
+                <p>🏃 Sport</p>
+            </section>
+
+        </aside>
+
+
+        <!-- CONTENU PRINCIPAL -->
+        <div class="content">
+
+            <section class="intro">
+                <span class="ligne"></span>
+
+                <h2>À propos de moi</h2>
+
+                <p>
+                    Passionné par l'informatique et le développement web,
+                    je suis une personne curieuse, organisée et motivée.
+                    J'aime concevoir des interfaces modernes et accessibles
+                    tout en développant mes compétences techniques.
+                </p>
+            </section>
+
+
+            <section>
+                <h2 class="title">Expériences professionnelles</h2>
+
+                <article class="experience">
+                    <div class="date">
+                        2024<br>—<br>2026
+                    </div>
+
+                    <div class="details">
+                        <h3>Développeur Web</h3>
+                        <h4>Entreprise Exemple — Dijon</h4>
+
+                        <p>
+                            Création et maintenance de sites web,
+                            intégration de maquettes et amélioration
+                            de l'expérience utilisateur.
+                        </p>
+
+                        <ul>
+                            <li>Développement de pages HTML et CSS</li>
+                            <li>Création d'interfaces responsives</li>
+                            <li>Maintenance et optimisation des sites</li>
+                        </ul>
+                    </div>
+                </article>
+
+
+                <article class="experience">
+                    <div class="date">
+                        2023<br>—<br>2024
+                    </div>
+
+                    <div class="details">
+                        <h3>Assistant informatique</h3>
+                        <h4>Entreprise Exemple — Dijon</h4>
+
+                        <p>
+                            Assistance aux utilisateurs et participation
+                            à différents projets informatiques.
+                        </p>
+
+                        <ul>
+                            <li>Support technique</li>
+                            <li>Installation de logiciels</li>
+                            <li>Gestion du matériel informatique</li>
+                        </ul>
+                    </div>
+                </article>
+
+            </section>
+
+
+            <section>
+                <h2 class="title">Formation</h2>
+
+                <article class="experience">
+                    <div class="date">
+                        2023<br>—<br>2026
+                    </div>
+
+                    <div class="details">
+                        <h3>Bachelor Informatique</h3>
+                        <h4>Établissement Exemple — Dijon</h4>
+
+                        <p>
+                            Formation orientée développement web,
+                            programmation, bases de données et réseaux.
+                        </p>
+                    </div>
+                </article>
+
+
+                <article class="experience">
+                    <div class="date">
+                        2021<br>—<br>2023
+                    </div>
+
+                    <div class="details">
+                        <h3>Baccalauréat</h3>
+                        <h4>Lycée Exemple — Dijon</h4>
+
+                        <p>
+                            Baccalauréat général avec spécialités
+                            Mathématiques et NSI.
+                        </p>
+                    </div>
+                </article>
+
+            </section>
+
+
+            <section>
+                <h2 class="title">Projets</h2>
+
+                <div class="projects">
+
+                    <div class="project">
+                        <h3>🌐 Portfolio personnel</h3>
+                        <p>
+                            Création d'un site personnel en HTML et CSS
+                            présentant mes projets et mes compétences.
+                        </p>
+                    </div>
+
+                    <div class="project">
+                        <h3>📋 Application de gestion</h3>
+                        <p>
+                            Conception d'une interface permettant de gérer
+                            des tâches et des utilisateurs.
+                        </p>
+                    </div>
+
+                </div>
+            </section>
+
+        </div>
+
+    </main>
+
+</body>
+</html>
